@@ -1,4 +1,4 @@
-cxx_library(
+prebuilt_cxx_library(
   name = 'openvr',
   soname = 'libopenvr_api.so',
   shared_lib = 'lib/linux64/libopenvr_api.so',
